@@ -18,6 +18,9 @@ class DetalleImagen : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(binding.root)
 
+        binding.btnBack.setOnClickListener {
+            onBackPressed() // Esto regresará a la actividad anterior
+        }
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
