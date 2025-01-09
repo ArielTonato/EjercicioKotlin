@@ -24,9 +24,11 @@
         </activity>
         <activity
             android:name=".DatosRemotos"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:exported="false" />
         <activity
             android:name=".DetalleImagen"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:exported="false" />
         <activity
             android:name=".ListadoImagenes"
